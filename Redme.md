@@ -38,24 +38,3 @@ A API expõe os seguintes endpoints em `http://localhost:8080/pedidos`:
   "clienteNome": "Nome do Cliente",
   "valorTotal": 150.50
 }
-
-## Banco de Dados H2
-O projeto utiliza o banco de dados **H2** em memória. Para visualizar as tabelas e os dados salvos durante a execução, acesse:
-
-* **URL:** `http://localhost:8080/h2-console`
-* **JDBC URL:** `jdbc:h2:mem:testdb`
-* **Usuário:** `sa`
-* **Senha:** (em branco)
-
----
-
-## Como executar o projeto
-1. Certifique-se de ter o **Java 17+** e o **Maven** instalados.
-2. Clone o repositório: 
-   ```bash
-   git clone [LINK_DO_SEU_REPOSITORIO]
-3. Abra o projeto na sua IDE (IntelliJ recomendado).
-
-4. Execute a classe Checkpoint2Application.java.
-
-5. A API estará disponível em http://localhost:8080.
